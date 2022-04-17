@@ -8,6 +8,9 @@ export default function About() {
   const [text, settext] = useState("");
   const [showText, setShowText] = useState(false);
   const { newtext1, newtext2, newtext3 } = hardCodedValues;
+  const handleChange = () => {
+    console.log("hello from handleChange");
+  };
 
   const handleClick = (val) => {
     if (val === "1") {
