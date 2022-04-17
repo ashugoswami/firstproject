@@ -11,6 +11,7 @@ export default function About() {
   const handleChange = () => {
     console.log("hello from handleChange");
   };
+  const handlenewChange = () => {};
 
   const handleClick = (val) => {
     if (val === "1") {
